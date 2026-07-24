@@ -48,7 +48,7 @@ const calculate = (btnValue) => {
         history.push({ expr: output, result: res });
         localStorage.setItem("calcHistory", JSON.stringify(history));
         renderHistory();
-        output = res.toString();
+        output = Number(res.toFixed(8)).toString();
         expressionEl.textContent = "";
         resultEl.textContent = output;
     } else if (btnValue === "AC") {
