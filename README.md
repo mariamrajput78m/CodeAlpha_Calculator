@@ -28,14 +28,13 @@ A sleek and responsive calculator built with **HTML, CSS, and JavaScript**. This
 
 ## 🚀 Live Demo
 
-**Coming Soon...**
+LINK: (https://code-alpha-calculator-bice-eight.vercel.app/)
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Modern Calculator/
 │── index.html
 │── style.css
 │── script.js
@@ -78,7 +77,5 @@ This project was developed as part of the **Frontend Development Internship** at
 ### 👩‍💻 Author
 
 **Mariam Mudassar**
-
-- GitHub: https://github.com/mariamrajput78m
 
 ⭐ If you like this project, consider giving it a star!
