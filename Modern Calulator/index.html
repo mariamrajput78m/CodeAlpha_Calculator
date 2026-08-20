@@ -23,8 +23,13 @@
 
         <div class="container">
             <div class="top-bar">
-                <button id="btn" class="mode-toggle"><i class="bi bi-moon-fill"></i></button>
-                <button id="historyBtn" class="mode-toggle"><i class="bi bi-clock-fill"></i></button>
+                <button id="btn" class="mode-toggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-fill"></i>
+                </button>
+
+                <button id="historyBtn" class="mode-toggle" aria-label="Show history">
+                    <i class="bi bi-clock-fill"></i>
+                </button>
             </div>
 
             <div class="history-panel" id="historyPanel"></div>
@@ -62,7 +67,8 @@
             </div>
         </div>
 
-        <script src="script.js"></script>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
